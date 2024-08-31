@@ -1,0 +1,93 @@
+/* Profile.css */
+
+.profile-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #1c1c24;
+    border-radius: 8px;
+    color: white; /* Text color */
+  }
+  /* Profile.css */
+
+/* ... (existing styles remain unchanged) */
+
+.redirect-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1dc071; /* Green color */
+    color: white; /* Text color */
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #159e5d; /* Darker green color on hover */
+  }
+  
+  .profile-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff; /* Title color */
+  }
+  
+  .user-details {
+    margin-bottom: 20px;
+  }
+  
+  .user-info p {
+    margin-bottom: 10px;
+    color: #fff; 
+    /* User info text color */
+  }
+  
+  .user-stats {
+    display: flex;
+    
+    justify-content: space-between;
+  }
+  
+  .user-stat {
+    flex: 1;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    color: #1c1c24; /* Stats text color */
+  }
+  
+  .user-stat p {
+    font-size: 18px;
+    color: #1c1c24; /* Stats number color */
+  }
+  
+  .donation-history {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .donation-card {
+    flex: 0 1 calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    color: #1c1c24; /* Donation card text color */
+  }
+  
+  .donation-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #1c1c24; /* Donation info text color */
+  }
+  
